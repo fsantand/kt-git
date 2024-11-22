@@ -291,7 +291,8 @@ git cherry-pick <HASH>
 
 # Agregar cambios a un commit previo
 ```bash
-git commit --fixup <HASH>
+git commit --fixup HASH
+git rebase -i --autosquash OBJETIVO
 ```
 
 # Rebase y pull en un commando desde remoto
